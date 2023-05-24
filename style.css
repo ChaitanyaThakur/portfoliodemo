@@ -1,0 +1,120 @@
+body{
+   background-color: #E23E57;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    background-color: #DDDDDD;
+}
+
+header h1{
+    font-family: 'Lobster', cursive;
+}
+
+header button{
+    font-family: 'Lobster', cursive;
+margin: 2vh 0vw;
+padding: 0vh 4vw;   
+font-size: 3vh; 
+background-color: #88304E;
+color: white;
+border: #88304E;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto 30vw;
+    align-items: center;
+}
+
+.textArea{
+    padding: 4vw;
+}
+
+.textArea h2{
+    font-size: 7vh;
+    margin: 0;
+}
+
+.textArea h1{
+    font-size: 10vh;
+    margin: 0;
+    font-weight: 900;
+    background-color: yellow;
+}
+
+.textArea h3{
+    font-size: 5vh;
+    margin: 0;
+}
+
+.textArea ul{
+    list-style: none;
+}
+
+.container .imgArea img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.socialIcon ul{
+    display: flex;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0%;
+}
+
+.socialIcon ul li{
+    margin: 2vh 2vw 0vh 0vw;
+    text-align: left;
+}
+
+.projectArea ul{
+    display: flex;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0%;
+}
+.projectArea ul li{
+    width: 10vw;
+    margin: 2vh 2vw 0vh 0vw;
+    text-align: left;
+}
+
+.projectArea ul li a{
+text-decoration: none;
+background-color: #311D3F;
+color: white;
+padding: 0.5vh 1vw;
+border-radius: 25px;
+width: 130%;
+}
+
+.skillList ul{
+    display: flex;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0%;
+}
+
+.skillList ul li{
+    margin: 2vh 2vw 0vh 0vw;
+    text-align: left;
+    text-decoration: none;
+background-color: #522546;
+color: white;
+padding: 0.5vh 1vw;
+border-radius: 25px;
+width: 130%;
+}
+
+.label{
+    font-family: 'Lobster', cursive;
+    margin: 4vh 0vw 0vw 0vh;   
+    font-size: 5vh;
+}
